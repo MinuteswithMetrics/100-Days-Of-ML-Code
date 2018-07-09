@@ -6,16 +6,10 @@
 
 ## Day 1 : July 07 , 2018
  
-**Today's Progress** : Warm Up: Predict Blood Donations
+**Today's Progress**   Warm Up: Predict Blood Donations
   
 **Thoughts** : I completed EDA on Blood Donations data. 
 **Project Description:**   [Predicting Blood Donations](https://www.drivendata.org/competitions/2/warm-up-predict-blood-donations/)
 
-Some basic Git commands are:
-```
-git status
-git add
-git commit
-```
 
 
