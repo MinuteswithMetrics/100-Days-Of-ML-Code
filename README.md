@@ -5,7 +5,7 @@
 The above tweet explains how this repo started. This will be the journal for 100DaysOfMLCode pledge. I will add the progress I make everyday and will publish the code at regular intervals once I make enough progress with some task/problem.  
 
 | Day        | Task           |   Updates      |   
-| ------------- |:-------------|  :---------------- |  
+| -------------- |:--------------|  :----------------- |  
 | [Day 0](https://medium.com/@dskswu/siraj-raval-100-days-of-ml-coding-challenge-7b985d8a4e82) | Project Setup |* Set up the environment on FloydHub (w/GPU) </br> * Setup blog post on Medium  </br> * Select what real-world projects to work on|  
 | [Day 1](https://github.com/MinuteswithMetrics/100-Days-Of-ML-Code/tree/master/Day1) | Predicting Blood Donations |* Set up the environment on Floydhub(no GPU) </br> * Used TensorFlow </br> * Eda on Blood Donations Data |  
 | [Day 2](https://github.com/MinuteswithMetric/100-Days-Of-ML-Code/tree/master/Predicting%20Blood%20Donations) | Predicting Blood Donations |* Begin Reading Deep Learnng Book </br> * Used TensorFlow </br> * Predicted if a blood donor will donate within a given time window using machine learning algorithms|
