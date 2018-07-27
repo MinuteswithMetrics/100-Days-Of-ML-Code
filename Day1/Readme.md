@@ -7,12 +7,13 @@ The UCI Machine Learning Repository is a great resource for practicing your data
 Here's what the first few rows of the training set look like:
 
 | Months since Last Donation | Number of Donations | Total Volume Donated (c.c.) | Months since First Donation | Made Donation in March 2007 |
+
 | --- | --- | --- | --- | --- | --- |
-| **619** |2  | 50  | 12500 | 98  | 1 | 
-| **664** |0  | 13  | 3250  | 28  | 1 |  
-| **441**	|1  | 16  | 4000  | 35  | 1 | 
-| **160**	|2  | 20  | 5000  | 45  | 1 |
-| **358**	|1  | 24  | 6000  | 77  | 0 |
+| **619** | 2  | 50  | 12500 | 98  | 1 | 
+| **664** | 0  | 13  | 3250  | 28  | 1 |  
+| **441**	| 1  | 16  | 4000  | 35  | 1 | 
+| **160**	| 2  | 20  | 5000  | 45  | 1 |
+| **358**	| 1  | 24  | 6000  | 77  | 0 |
 
 ## Dataset
 
