@@ -8,7 +8,7 @@ Blood donation has been around for a long time. The first successful recorded tr
 
 Our dataset is from a mobile blood donation vehicle in Taiwan. The Blood Transfusion Service Center drives to different universities and collects blood as part of a blood drive.
 
-## Problem description:
+## Problem Description:
 
 The UCI Machine Learning Repository is a great resource for practicing your data science skills. They provide a wide range of datasets for testing machine learning algorithms. Finding a subject matter you're interested in can be a great way to test yourself on real-world data problems. Given our mission, we're interested in predicting if a blood donor will donate within a given time window.
 
@@ -28,6 +28,10 @@ Here's what the first few rows of the training set look like:
 * **Number of Donations:** this is the total number of donations that the donor has made.
 * **Total Volume Donated:** this is the total amound of blood that the donor has donated in cubuc centimeters.
 * **Months since First Donation:** this is the number of months since the donor's first donation.
+
+## Performance Summary
+
+![Banner Image](https://cdn-images-1.medium.com/max/1000/1*p0vyOtxZu70GreCHdHmr4Q.png)
 
 
 
