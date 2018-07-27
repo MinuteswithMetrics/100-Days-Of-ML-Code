@@ -6,8 +6,8 @@ The UCI Machine Learning Repository is a great resource for practicing your data
 
 Here's what the first few rows of the training set look like:
 
-Markdown | Less | Pretty
---- | --- | ---
+	Months since Last Donation | Number of Donations | Total Volume Donated (c.c.) | Months since First Donation | Made Donation in March 2007
+--- | --- | --- | --- | --- | --- | 
 *Still* | `renders` | **nicely**
 1 | 2 | 3/
 
