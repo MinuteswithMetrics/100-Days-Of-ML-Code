@@ -4,8 +4,9 @@
 
 The goal is to predict the binary class heart_disease_present, which represents whether or not a patient has heart disease:
 
-0 represents no heart disease present
-1 represents heart disease present
+* 0 represents no heart disease present
+
+* 1 represents heart disease present
 
 ## Dataset
 
