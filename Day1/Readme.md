@@ -7,10 +7,15 @@ The UCI Machine Learning Repository is a great resource for practicing your data
 Here's what the first few rows of the training set look like:
 
 /***
+
 | __Animals__ | __Sports__ | __Fruits__ |
+
 |-------------|------------|------------|
+
 | Cat         | Soccer     | Apple      |
+
 | Dog         | Basketball | Orange     |
+
 ***/
 
 
