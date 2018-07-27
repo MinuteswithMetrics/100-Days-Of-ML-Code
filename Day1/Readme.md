@@ -1,6 +1,5 @@
 # Warm Up: Predict Blood Donations
 ![Banner Image](https://s3.amazonaws.com:443/drivendata/comp_images/2.jpg)
-
 ##Introduction
 
 Blood donation has been around for a long time. The first successful recorded transfusion was between two dogs in 1665, and the first medical use of human blood in a transfusion occurred in 1818. Even today, donated blood remains a critical resource during emergencies.
