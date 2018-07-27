@@ -1,5 +1,11 @@
 # Warm Up: Predict Blood Donations
 
+##Introduction
+
+Blood donation has been around for a long time. The first successful recorded transfusion was between two dogs in 1665, and the first medical use of human blood in a transfusion occurred in 1818. Even today, donated blood remains a critical resource during emergencies.
+
+Our dataset is from a mobile blood donation vehicle in Taiwan. The Blood Transfusion Service Center drives to different universities and collects blood as part of a blood drive.
+
 ## Problem description:
 
 The UCI Machine Learning Repository is a great resource for practicing your data science skills. They provide a wide range of datasets for testing machine learning algorithms. Finding a subject matter you're interested in can be a great way to test yourself on real-world data problems. Given our mission, we're interested in predicting if a blood donor will donate within a given time window.
@@ -7,8 +13,7 @@ The UCI Machine Learning Repository is a great resource for practicing your data
 Here's what the first few rows of the training set look like:
 
 | Months since Last Donation | Number of Donations | Total Volume Donated (c.c.) | Months since First Donation | Made Donation in March 2007 |
-
-| --- | --- | --- | --- | --- | --- |
+| ---                        | ---                 | ---                          | ---                         | ---                   --- |
 
 | **619** | 2  | 50  | 12500 | 98  | 1 | 
 | **664** | 0  | 13  | 3250  | 28  | 1 |  
