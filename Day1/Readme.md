@@ -13,7 +13,7 @@ The UCI Machine Learning Repository is a great resource for practicing your data
 
 Here's what the first few rows of the training set look like:
 
- Id|**Months since Last Donation**|**Number of Donations**|**Total Volume Donated (c.c.)**|**Months since First Donation**|**Made Donation in March 2007**
+ Row ID|**Months since Last Donation**|**Number of Donations**|**Total Volume Donated (c.c.)**|**Months since First Donation**|**Made Donation in March 2007**
 :-----:|:-----:|:-----:|:-----:|:-----:|:-----:
 619|2|50|12500|98|1
 664|0|13|3250|28|1
@@ -21,20 +21,16 @@ Here's what the first few rows of the training set look like:
 160|2|20|5000|45|1
 358|1|24|6000|77|0
 
-## Dataset
+**Use information about each donor's history**
 
-There are 14 columns in the dataset, where the patient_id column is a unique and random identifier. The remaining 13 features are described in the section below.
+* **Months since Last Donation:** this is the number of monthis since this donor's most recent donation.
+* **Number of Donations:** this is the total number of donations that the donor has made.
+* **Total Volume Donated:** this is the total amound of blood that the donor has donated in cubuc centimeters.
+* **Months since First Donation:** this is the number of months since the donor's first donation.
 
-slope_of_peak_exercise_st_segment (type: int): the slope of the peak exercise ST segment, an electrocardiography read out indicating quality of blood flow to the heart
-thal (type: categorical): results of thallium stress test measuring blood flow to the heart, with possible values normal, fixed_defect, reversible_defect
-resting_blood_pressure (type: int): resting blood pressure
-chest_pain_type (type: int): chest pain type (4 values)
-num_major_vessels (type: int): number of major vessels (0-3) colored by flourosopy
-fasting_blood_sugar_gt_120_mg_per_dl (type: binary): fasting blood sugar > 120 mg/dl
-resting_ekg_results (type: int): resting electrocardiographic results (values 0,1,2)
-serum_cholesterol_mg_per_dl (type: int): serum cholestoral in mg/dl
-oldpeak_eq_st_depression (type: float): oldpeak = ST depression induced by exercise relative to rest, a measure of abnormality in electrocardiograms
-sex (type: binary): 0: female, 1: male
-age (type: int): age in years
-max_heart_rate_achieved (type: int): maximum heart rate achieved (beats per minute)
-exercise_induced_angina (type: binary): exercise-induced chest pain (0: False, 1: True)
+
+
+## Data citation
+Data is courtesy of Yeh, I-Cheng via the UCI Machine Learning repository:
+
+Yeh, I-Cheng, Yang, King-Jang, and Ting, Tao-Ming, "Knowledge discovery on RFM model using Bernoulli sequence, "Expert Systems with Applications, 2008, doi:10.1016/j.eswa.2008.07.018.
