@@ -1,6 +1,7 @@
 # Warm Up: Predict Blood Donations
 ![Banner Image](https://s3.amazonaws.com:443/drivendata/comp_images/2.jpg)
-##Introduction
+
+## Introduction
 
 Blood donation has been around for a long time. The first successful recorded transfusion was between two dogs in 1665, and the first medical use of human blood in a transfusion occurred in 1818. Even today, donated blood remains a critical resource during emergencies.
 
@@ -12,6 +13,13 @@ The UCI Machine Learning Repository is a great resource for practicing your data
 
 Here's what the first few rows of the training set look like:
 
+Team or User | Score | Date of Rank | Rank | Folder | Programming Language
+--- | --- | --- | --- | --- | ---
+**619** | 2| 50 | 12500 | 98 | 1
+**664** | 0| 13 | 3250 | 28 | 1
+**441** | 1 | 16 | 4000 | 35 | 1
+**160** | 2 | 20 | 5000 | 45 | 1
+**358** | 1 | 24 | 6000 | 77 | 0
 
 
 ## Dataset
