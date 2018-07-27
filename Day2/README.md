@@ -33,6 +33,8 @@ Here's what the first few rows of the training set look like:
 
 ![Banner Image](https://cdn-images-1.medium.com/max/1000/1*p0vyOtxZu70GreCHdHmr4Q.png)
 
+! [Average Model ROC Curves] (https://cdn-images-1.medium.com/max/1000/1*ycCeHRMmFy3IrVcPKbyVCQ.png)
+
 
 
 ## Data citation
