@@ -6,3 +6,5 @@ Predict survival on the Titanic passengers
 
 
 ![GitHub](http://www.titanicwalk.com/wp-content/uploads/2013/10/titanic-sinking-underwater.jpg)
+
+![GitHub](https://giphy.com/gifs/titanic-gif-arkijune-6iSme2DGl1nR6)
