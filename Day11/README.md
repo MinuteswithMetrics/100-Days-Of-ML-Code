@@ -7,12 +7,13 @@ In this notebook, we are building a 3-layer neural network with numpy for the Ka
 
 
 
-'''
+
+```python
 # Imports
 %matplotlib inline
 %config InlineBackend.figure_format = 'retina'
 
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-'''
+import numpy as np # For Mathematical functions 
+import pandas as pd # Widely used tool for data manipulation
+import matplotlib.pyplot as plt # Visualization
+```
