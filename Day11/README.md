@@ -5,3 +5,4 @@ Predict survival on the Titanic passengers
 
 
 
+![GitHub](http://www.titanicwalk.com/wp-content/uploads/2013/10/titanic-sinking-underwater.jpg)
