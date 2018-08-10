@@ -8,12 +8,14 @@ It includes three iris species with 50 samples each as well as some properties a
 
 The columns in this dataset are:
 
-Id
-SepalLengthCm
-SepalWidthCm
-PetalLengthCm
-PetalWidthCm
-Species
+* Id
+* SepalLengthCm
+* SepalWidthCm
+* PetalLengthCm
+* PetalWidthCm
+* Species
+
+![Iris](https://www.kaggle.com/benhamner/d/uciml/iris/sepal-width-vs-length)
 
 credit: [Anthony Marakis](https://www.kaggle.com/antmarakis/another-neural-network-from-scratch "Another Neural Network From Scratch")
 
