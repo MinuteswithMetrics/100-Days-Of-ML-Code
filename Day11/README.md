@@ -144,3 +144,67 @@ class NeuralNetwork(object):
 def MSE(y, Y):
     return np.mean((y-Y)**2)
 ```    
+
+### Training
+```python
+import time
+
+def build_network(network, epochs, optimizer, batch_size = None):
+    losses = {'train':[], 'validation':[]} # For Plotting of MSE
+
+    start = time.time()
+        
+    # Iterating Over Epochs
+    for i in range(epochs):
+        
+        if optimizer == 'sgd':
+            # Iterating over mini batches
+            for k in range(train_X.shape[0]// batch_size):
+                batch = np.random.choice(train_X.index, size=batch_size)
+                X, y = train_X.ix[batch].values, train_y[batch]
+
+                network.train(X, y, optimizer)
+
+                train_loss = MSE(network.run(train_X), train_y)
+                val_loss = MSE(network.run(val_X), val_y)
+
+            if i % 100 == 0:
+                print('Epoch {}, Train Loss: {}, Val Loss: {}'.format(i, train_loss, val_loss))
+                
+        if optimizer == 'adam':
+            network.train(train_X, 
+                          train_y, 
+                          optimizer,
+                          decay_rate_1 = 0.9,
+                          decay_rate_2 = 0.99,
+                          epsilon = 10e-8)
+
+            train_loss = MSE(network.run(train_X), train_y)
+            val_loss = MSE(network.run(val_X), val_y)
+
+            if i % 100 == 0:
+                print('Epoch {}, Train Loss: {}, Val Loss: {}'.format(i, train_loss, val_loss))
+
+        losses['train'].append(train_loss)
+        losses['validation'].append(val_loss)
+        
+    print('Time Taken:{0:.4f}s'.format(time.time()-start))
+    return losses
+    ``` 
+    
+  ``` python
+epochs = 601
+learning_rate = 0.01
+hidden_nodes = 6
+output_nodes = 1
+batch_size = 64
+
+network_adam = NeuralNetwork(train_X.shape[1], hidden_nodes, output_nodes, learning_rate)
+network_sgd = NeuralNetwork(train_X.shape[1], hidden_nodes, output_nodes, learning_rate)
+
+print('Training Model with Adam')
+losses_adam = build_network(network_adam, epochs, 'adam')
+
+print('\nTraining Model with SGD')
+losses_sgd = build_network(network_sgd, epochs, 'sgd', batch_size)
+ ``` 
