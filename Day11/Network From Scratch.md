@@ -203,3 +203,32 @@ def FindMaxActivation(output):
     
     return index
 ```
+```python
+def Accuracy(X, Y, weights):
+    """Run set through network, find overall accuracy"""
+    correct = 0
+
+    for i in range(len(X)):
+        x, y = X[i], list(Y[i])
+        guess = Predict(x, weights)
+
+        if(y == guess):
+            # Guessed correctly
+            correct += 1
+
+    return correct / len(X)
+    
+    
+    f = len(X[0]) # Number of features
+o = len(Y[0]) # Number of outputs / classes
+
+layers = [f, 5, 10, o] # Number of nodes in layers
+lr, epochs = 0.15, 100
+
+weights = NeuralNetwork(X_train, Y_train, X_val, Y_val, epochs=epochs, nodes=layers, lr=lr);
+
+print("Testing Accuracy: {}".format(Accuracy(X_test, Y_test, weights)))
+```
+## credit: [Anthony Marakis](https://www.kaggle.com/antmarakis/another-neural-network-from-scratch "Another Neural Network From Scratch")
+
+
