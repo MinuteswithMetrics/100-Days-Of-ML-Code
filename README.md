@@ -24,7 +24,7 @@ The above tweet explains how this repo started. This will be the journal for 100
 | [Day 15](https://github.com/MinuteswithMetrics/100-Days-Of-ML-Code/tree/master/Day15) |Chapter 10: Sequence Modeling: Recurrent and Recursive Nets |* Updating Notes </br> * Wrote a LSTM in numpy |  
 | [Day 16](https://github.com/MinuteswithMetrics/100-Days-Of-ML-Code/tree/master/Day16) | Chapter 11: Practical Methodology |* Updated notes |  
 | [Day 17](https://github.com/MinuteswithMetrics/100-Days-Of-ML-Code/tree/master/Day17) | Chapte 12: Applications |* Updated Notes |   
-| [Day 18](https://github.com/MinuteswithMetrics/100-Days-Of-ML-Code/tree/master/Day18) | Home Credit Default Risk |* Using Xgboost to predict how capable each applicant is of repaying a loan? </br> * Read up on Xgboost| 
+| [Day 18](https://github.com/MinuteswithMetrics/100-Days-Of-ML-Code/tree/master/Day18) | Home Credit Default Risk |* Using LightGBM to predict how capable each applicant is of repaying a loan? </br> * Read up on Xgboost| 
 | [Day 19](https://github.com/MinuteswithMetrics/100-Days-Of-ML-Code/tree/master/Day19) | Updating my notes on Deep Learning Part II |* Preparing to work on more projects and apply what I learned |  
 | [Day 20](https://github.com/MinuteswithMetrics/100-Days-Of-ML-Code/tree/master/Day20) |Google AI Open Images - Object Detection Track |* Implemented Keras Inception v3 model </br> * Improving my project pipeline </br> * researching other models to apply | 
 | [Day 21](https://github.com/MinuteswithMetrics/100-Days-Of-ML-Code/tree/master/Day21) | Santander Value Prediction Challenge |* Predict the value of transactions for potential customers. </br> * XGBoost features scoring with LigthGBM model </br> * Research other models to test |  
