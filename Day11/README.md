@@ -21,3 +21,18 @@ import numpy as np # For Mathematical functions
 import pandas as pd # Widely used tool for data manipulation
 import matplotlib.pyplot as plt # Visualization
 ```
+
+### Data Preparation 
+
+train = pd.read_csv('train.csv')
+```python
+# Converting Passenger Class and Embarked Location to binary variables
+dummy_fields = ['Sex', 'Pclass', 'Embarked']
+for i in dummy_fields:
+    dummies = pd.get_dummies(train[i], prefix=i, drop_first=False)
+    train = pd.concat([train, dummies], axis=1)
+
+# Dropping unneeded columns 
+fields_to_drop = ['PassengerId', 'Ticket', 'Name', 'Cabin', 'Fare', 'Pclass', 'Embarked', 'Sex']
+data = train.drop(fields_to_drop, axis=1)
+```
