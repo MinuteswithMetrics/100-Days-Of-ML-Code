@@ -237,3 +237,5 @@ plt.legend()
 print('Adam Test Accuracy: {}'.format(test_model(network_adam)))
 print('SGD Test Accuracy: {}'.format(test_model(network_sgd)))
  ``` 
+
+credit: [Ong Jia Rui](https://github.com/jrios6/Adam-vs-SGD-Numpy/blob/master/Adam%20vs%20SGD%20-%20On%20Kaggle's%20Titanic%20Dataset.ipynb "Nueral Network Numpy")
