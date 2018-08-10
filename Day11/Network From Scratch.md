@@ -15,7 +15,7 @@ The columns in this dataset are:
 * PetalWidthCm
 * Species
 
-![Iris](https://www.kaggle.com/benhamner/d/uciml/iris/sepal-width-vs-length)
+![Iris](https://kasperfred.com/media/uploads/Figure_2_P6AJPcH.png)
 
 credit: [Anthony Marakis](https://www.kaggle.com/antmarakis/another-neural-network-from-scratch "Another Neural Network From Scratch")
 
