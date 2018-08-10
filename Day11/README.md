@@ -208,3 +208,31 @@ losses_adam = build_network(network_adam, epochs, 'adam')
 print('\nTraining Model with SGD')
 losses_sgd = build_network(network_sgd, epochs, 'sgd', batch_size)
  ``` 
+### Plot of Training and Validation Loss
+
+``` python
+plt.plot(losses_adam['train'], label='Adam Training Loss')
+plt.plot(losses_adam['validation'], label='Adam Validation Loss')
+plt.plot(losses_sgd['train'], label='SGD Training Loss')
+plt.plot(losses_sgd['validation'], label='SGD Validation Loss')
+plt.legend()
+#_ = plt.ylim()
+ ``` 
+ ### Test
+ ``` python
+ def test_model(network):
+    test_predictions = network.run(test_X)
+    correct = 0
+    total = 0
+    for i in range(len(test_predictions)):
+        total += 1
+        if test_predictions[i] < 0.5 and test_y[i] == 0:
+            correct += 1
+        elif test_predictions[i] >= 0.5 and test_y[i] == 1:
+            correct += 1
+    return correct/total
+ ``` 
+ ``` python
+print('Adam Test Accuracy: {}'.format(test_model(network_adam)))
+print('SGD Test Accuracy: {}'.format(test_model(network_sgd)))
+ ``` 
