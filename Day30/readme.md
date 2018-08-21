@@ -1,6 +1,8 @@
 # TGS Salt Identification Challenge
 *Segment salt deposits beneath the Earth's surface*
 
+![TGS](https://github.com/MinuteswithMetrics/100-Days-Of-ML-Code/blob/master/Day30/TGS.png)
+
 ### Description
 
 Several areas of Earth with large accumulations of oil and gas also have huge deposits of salt below the surface.
